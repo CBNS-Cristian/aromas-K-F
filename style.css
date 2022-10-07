@@ -1,0 +1,389 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: 'Avenir LT';
+    src: url('avenir lt 35 light.ttf') format('truetype');
+  }
+  @media(min-width:500px)
+  {
+   .carousel-caption {
+        left: 50%;
+      top: 55%;
+      transform: translate(-50%, -50%);
+  } 
+  }
+
+  @media (max-width:700px){
+   
+    .menu{
+        font-size: 1.8vh;
+        margin: 10px 0;
+    
+    }
+    #principal{
+        height: 220px;
+    }
+    .nav2 img{
+        height: 20px;
+    }
+    .texto-sobre{
+        width: 300px;
+   }
+   #textinho{
+    font-size: 2.5vh;
+   }
+   #titulo-sobre{
+    font-size: 4vh;
+   }
+   #section-geral{
+    max-width: 330px;
+   }
+ 
+   .imagem-quadrado{
+    height: 150px;
+    width: 100%;
+    margin: 0;
+   }
+
+   #area-contato{
+    width: 350px;
+   
+   
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   }
+   #input-contact{
+    width: 330px;
+    
+   }
+   #mensagem-texto{
+    max-width: 330px;
+   }
+
+   #img-carrosel{
+    height: 300px;
+}
+
+}
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: #FAFAFA;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    padding: 15px 0;
+    
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.295);
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+
+    
+}
+.navegacao{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1300px;
+
+}
+#logo img{
+    height: 120px;
+}
+nav{
+    display: flex;
+    gap: 40px;
+   
+}
+.nav2{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+ 
+}
+.nav2 img{
+    height: 30px;
+    transition: 0.7s;
+}
+.nav2 img:hover{
+    transform: scale(1.2);
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: "Avenir LT";
+}
+.carrossel img{
+    height: 600px;  
+}
+
+
+
+.separador1{
+
+    width: 130px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    border: 2px solid #ff0000;
+}
+.separador2{
+    border: 1.5px solid #ff0000;
+    width: 300px;
+    margin: 0;
+    
+}
+main{
+   
+    display: flex;
+    justify-content: center;
+   
+   background-color: #FFF2F4;
+}
+#space-velas{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title-velas{
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 0;
+  margin: 0;
+  font-family: 'Avenir LT';
+}
+#section-geral{
+  width: 1300px;
+}
+.quadrado-velas{
+    height: 470px;
+    width: 325px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-family: "Avenir LT";
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.quadrado-velas:hover{
+
+    box-shadow: 1px 1px 4px #000000a8;
+    border-radius: 30px;
+    background-color: #fdcbd0;
+
+}
+
+.quadrado-velas h4{
+ 
+   font-size: 25px;
+   margin: 0;
+}
+.descricao{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.valor{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(241, 68, 97);
+}
+.space-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+   
+    width: 100%;
+    padding: 0;
+
+}
+.space-secundario input{
+   width: 150px;    
+   height: 30px;
+   margin: 3px;
+   
+}
+#button-valor{
+    font-family: 'Avenir LT';
+    font-size: 20px;
+    border-radius: 15px;
+   border: 1px solid rgba(0, 0, 0, 0.589);
+   width: 170px;
+   background-color: #fad3d9bd;
+   transition: 1s;
+   margin-top: 6px;
+}
+#button-valor:hover{
+    background-color: #fac3cc;
+    border: 0;
+  
+    box-shadow: 1px 1px 2px black;
+}
+#button-valor img{
+    padding-left: 10px;
+    height: 20px;
+}
+.space-img img{
+
+    width: 250px;
+}
+
+.velas-especiais{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+    background-color: rgba(186, 234, 250, 0.829)
+    
+}
+#space-secundario-velas{
+    width: 1300px;
+    margin: 20px;
+}
+
+.quadrado-velas-especial{
+    height: 470px;
+    width: 325px;
+    opacity: 0.5;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-family: "Avenir LT";
+    margin: 20px;
+    transition: 1.5s;
+}
+.quadrado-velas-especial:hover{
+    opacity: 1;
+    box-shadow: 1px 1px 4px #000000a8;
+    border-radius: 30px;
+    background-color: #fdcbd0;
+}
+
+#sobre{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.space-sobre{
+   
+    height: 700px;
+    width: 1900px;
+    background-color: lightgray;
+    background-image: url(imagens/sobre/fundo.jpg);
+    background-position: center;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-sobre{
+    text-align: center;
+    max-width: 450px;
+    
+}
+.texto-sobre h3{
+    padding-bottom: 15px;
+    font-size: 37px;
+}
+.texto-sobre p{
+    font-size: 25px;
+}
+
+#contato{
+
+    display: flex;
+    justify-content: center;
+     margin: 30px 0;
+     padding: 50px 0;
+    align-items: center;
+    background-image: linear-gradient(180deg, lightblue, rgb(197, 111, 255));
+}
+#area-contato{
+    padding: 30px;
+    width: 450px;
+    border-radius: 40px 0;
+    background-color: white;
+
+}
+#area-contato h3{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.text-area-contato{
+    width: 400px;
+    max-height: 20vh;
+    margin-bottom: 15px;
+    border-radius: 4px 15px;
+    border: 0;
+   
+    color: white;
+    background-color: #7866e0;
+    padding: 15px;
+}
+.input-contato{
+    width: 400px;
+    height: 60px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    border-radius: 4px 15px;
+    border: 0;
+    color: white;
+    background-color: #7866e0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pa-contato{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#area-button{
+    display: flex;
+    justify-content: center;
+}
+#button-contato{
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #7866e0;
+    color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.541);
+}
+.input-contato::placeholder{
+    color: white;
+}
+footer{
+    height: 500px;
+}
